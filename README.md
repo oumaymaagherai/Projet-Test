@@ -1,14 +1,14 @@
 # Projet test - Condidature Oumayma AGHERAI
 ## Front end : 
 ### Données : 
-Les données sont déployer dans JSON Server.
+Les données sont déployer dans JSON Server<br>
 
-l'installation de Json server : npm install -g json-server
+l'installation de Json server : npm install -g json-server<br>
 
 
-Lancement du serveur Json : json-server --watch db.json
+Lancement du serveur Json : json-server --watch db.json<br>
 ### Build :
-l'installation des dépendances : npm install 
+l'installation des dépendances : npm install <br>
 
 Démarrage de serveur :  ng serve 
 
