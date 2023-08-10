@@ -1,0 +1,40 @@
+<div class="navbar">
+
+    <div class="headerdiv">
+        <mat-toolbar class="header">
+            <button (click)="drawer.toggle()" mat-icon-button>
+                <mat-icon>menu</mat-icon>
+            </button>
+            <a routerLink="/dashboard">
+                <img width="50" height="50" style="margin-top: 10px;" alt="IndataCore Logo"
+                    src="assets/images/logo_InDataCore.png" class="imglogo" />
+            </a>
+        </mat-toolbar>
+    </div>
+    <div class="sidebarre">
+        <mat-drawer-container autosize>
+            <mat-drawer #drawer opened="true" mode="side" class = "sidebarre" >
+                <mat-nav-list>
+                    <mat-list-item>
+                        <button mat-button routerLink="/dashboard" routerLinkActive="active-button">
+                            <mat-icon>dashboard</mat-icon> Dashboard</button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-button routerLink="/products" routerLinkActive="active-button">
+                            <mat-icon>shopping_basket</mat-icon>Products</button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button mat-button routerLink="/uploadFile" routerLinkActive="active-button">
+                            <mat-icon>cloud_upload</mat-icon>Upload File </button>
+                    </mat-list-item>
+                </mat-nav-list>
+
+            </mat-drawer>
+            <mat-drawer-content>
+                <div>
+                    <router-outlet></router-outlet>
+                </div>
+            </mat-drawer-content>
+        </mat-drawer-container>
+    </div>
+</div>

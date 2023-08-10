@@ -1,0 +1,30 @@
+<div class="principal">
+    <div class="centre">
+        <div class ="header">
+            <img width="100" height="100" style="margin-top: 10px;" alt="IndataCore Logo"
+                                src="assets/images/logo_InDataCore.png" class="imglogo" />
+        </div>
+        <form class = "form" [formGroup]="signUpForm" >
+            <mat-form-field appearance="outline" >
+                <mat-label>Login</mat-label>
+                <input matInput type="text" formControlName = "login">
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput type="text" formControlName = "name">
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input matInput type="password" formControlName = "password">
+              </mat-form-field>
+              <button mat-raised-button color="primary" type="submit" (click)="signUp()"> Sign Up </button>
+        
+        </form>
+        <a routerLink="/signIn">Already registered ? Click to sign in !!</a>
+
+    </div>
+</div>
+
+
+
+

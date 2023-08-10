@@ -1,0 +1,27 @@
+<div class="principal">
+  <div class="centre">
+    <h2>File upload with progress bar indicator</h2>
+
+    <div class="uplodeFile">
+      <button mat-raised-button class="buttonUpload"><label for="file" class="file-label"> <mat-icon
+            class="uploadicon">upload</mat-icon>
+          Uploade file</label></button>
+      <input type="file" id="file" (change)="onUploadFile($event)">
+    </div>
+
+    <div *ngIf="uploadedFile" class="FileProgresse">
+      
+      <div class="progresse">
+        <div class="filename" >
+          <span>{{uploadedFile.fileName}}</span>
+          <mat-progress-bar mode="indeterminate" *ngIf="fileProgresse"></mat-progress-bar>
+
+        </div>
+
+      </div>
+      <div class="completed" *ngIf="!fileProgresse">
+        <span>Completed</span>
+      </div>
+    </div>
+  </div>
+</div>

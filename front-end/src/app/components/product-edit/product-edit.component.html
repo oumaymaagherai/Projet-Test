@@ -1,0 +1,39 @@
+<div mat-dialog-title class = "titre" style = ><h1>Edit Product </h1>
+</div>
+<div style = "height: 10px;" class ="label">
+    <label  *ngIf="showLabel">
+        {{labelContenu}}
+    </label>
+</div>
+
+<Form [formGroup]="productForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class = "content">
+        <div class = "row">
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput type = "text" formControlName = "name">
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Description</mat-label>
+                <input matInput type = "text" formControlName = "description">
+              </mat-form-field>
+            </div>
+            <div class = "row"> 
+                <mat-form-field appearance="outline">
+                    <mat-label>Price</mat-label>
+                    <input matInput type = "number" formControlName = "price">
+                  </mat-form-field>
+                 
+                  <mat-form-field appearance="outline">
+                    <mat-label>Brand</mat-label>
+                    <input matInput type = "text" formControlName = "brand">
+                  </mat-form-field>
+            </div>
+          
+       
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button [mat-dialog-close]="false"> Annuler </button>
+        <button mat-raised-button color="primary" type="submit" > Modifier </button>
+    </div>
+</Form>

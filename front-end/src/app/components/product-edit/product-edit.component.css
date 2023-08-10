@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.action {
+    padding: 0px 25px 40px;
+}
+
+.action button {
+    flex: 1;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: red;
+}

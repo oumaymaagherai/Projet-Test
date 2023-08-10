@@ -1,0 +1,137 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Oumayma",
+      "login": "Oumayma",
+      "password": "1234"
+    },
+    {
+      "login": "Mohamed",
+      "name": "Mohamed",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "name": "Hat",
+      "description": "Durable and long-lasting",
+      "brand": "MARWA",
+      "price": 9000
+    },
+    {
+      "id": 2,
+      "name": "Backpack",
+      "description": "Made from premium materials",
+      "brand": "ZARA",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "name": "Jeans",
+      "description": "Comfortable and stylish",
+      "brand": "ZARA",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Sneakers",
+      "description": "Sporty and comfortable",
+      "brand": "NIKE",
+      "price": 1200
+    },
+    {
+      "id": 5,
+      "name": "T-shirt",
+      "description": "Casual and versatile",
+      "brand": "ADIDAS",
+      "price": 250
+    },
+    {
+      "id": 6,
+      "name": "Dress",
+      "description": "Elegant and classy",
+      "brand": "H&M",
+      "price": 800
+    },
+    {
+      "id": 7,
+      "name": "Jacket",
+      "description": "Warm and fashionable",
+      "brand": "ZARA",
+      "price": 600
+    },
+    {
+      "id": 8,
+      "name": "Boots",
+      "description": "Stylish and versatile",
+      "brand": "MARWA",
+      "price": 900
+    },
+    {
+      "id": 9,
+      "name": "Shorts",
+      "description": "Casual and comfortable",
+      "brand": "H&M",
+      "price": 150
+    },
+    {
+      "id": 10,
+      "name": "Sweater",
+      "description": "Cozy and warm",
+      "brand": "ADIDAS",
+      "price": 400
+    },
+    {
+      "id": 11,
+      "name": "Skirt",
+      "description": "Flattering and trendy",
+      "brand": "ZARA",
+      "price": 350
+    },
+    {
+      "id": 12,
+      "name": "Blouse",
+      "description": "Chic and elegant",
+      "brand": "MARWA",
+      "price": 280
+    },
+    {
+      "id": 13,
+      "name": "Pants",
+      "description": "Stylish and comfortable",
+      "brand": "H&M",
+      "price": 320
+    },
+    {
+      "id": 14,
+      "name": "Hoodie",
+      "description": "Casual and cozy",
+      "brand": "NIKE",
+      "price": 450
+    },
+    {
+      "id": 15,
+      "name": "Sandals",
+      "description": "Comfortable and trendy",
+      "brand": "ADIDAS",
+      "price": 180
+    },
+    {
+      "id": 16,
+      "name": "Shirt",
+      "description": "Classic and versatile",
+      "brand": "ZARA",
+      "price": 280
+    },
+    {
+      "id": 17,
+      "name": "Socks",
+      "description": "Soft and durable",
+      "brand": "MARWA",
+      "price": 30
+    }
+  ]
+}

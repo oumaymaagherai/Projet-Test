@@ -1,0 +1,29 @@
+table th {
+    background-color: rgb(170, 200, 247);
+    border-color: black;
+    font-size: 13px;
+    color: rgb(7, 7, 7);
+}
+
+.productPrincipal {
+    margin: 30px;
+
+}
+
+.iconEdit {
+    color: blue;
+    font-size: 22px;
+    margin-top: 10px;
+    ;
+}
+
+.iconDelete {
+    color: red;
+    font-size: 22px;
+    margin-top: 10px;
+    ;
+}
+.table{
+    max-height: 500px; /* Ajustez cette valeur à la largeur souhaitée */
+  overflow-y: auto;
+}
